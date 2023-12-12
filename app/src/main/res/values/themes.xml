@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalcZakat" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+
+        <!-- Add other style attributes as needed -->
+        <!-- For example, you might want to change the text color of the action bar title -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="Theme.CalcZakat" parent="Base.Theme.CalcZakat" />
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculate Zakat</string>
+    <string name="instruction">Instruction</string>
+    <string name="zakat_calculator_instructions">
+        1. Enter Gold Weight (in grams):
+
+           Input the weight of your gold possessions in grams.
+
+</string>
+
+    <string name="copyright_statement">Copyright © 2023 ZakatCalc. All rights reserved.</string>
+
+</resources>

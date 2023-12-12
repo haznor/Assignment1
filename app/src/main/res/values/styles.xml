@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your gold color here -->
+        <item name="colorPrimary">#FFD700</item>
+
+        <!-- Add other style attributes as needed -->
+        <!-- For example, you might want to change the text color of the action bar title -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+</resources>

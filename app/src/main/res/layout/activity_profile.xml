@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar_profile"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:layout_alignParentTop="true" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/my_toolbar_profile"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/profile_picture" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_background"
+            android:text="Name: Muhammad Haznor Haqiff Bin Hamam"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:padding="10dp"
+                android:background="@drawable/rounded_background"
+                android:text="ID: 2021470806"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_background"
+            android:text="Class: RCS2405A"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/logoabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewClass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_background"
+            android:text="Zakat Calculator is a user-friendly mobile app designed to help you easily estimate Zakat payments on your gold possessions. Enter the weight, type, and current value of your gold to calculate the total value, Zakat payable, and the corresponding Zakat amount. Additionally, explore your profile and stay connected by sharing the app with others effortlessly using the built-in share feature."
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textViewCopyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright_statement"
+            android:layout_below="@id/logoabout"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewGitHub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GitHub Repository: https://github.com/haznor/assign1"
+            android:layout_below="@id/logoabout"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:onClick="openGitHubLink" />
+    </RelativeLayout>
+</ScrollView>
